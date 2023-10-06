@@ -34,10 +34,6 @@ body {
 .inside-contacts {
   padding: 24px 0 24px;
 }
-.mail-navigation {
-  display: flex;
-  align-items: center;
-}
 .mail {
   display: flex;
   gap: 40px;
@@ -91,11 +87,6 @@ body {
 }
 .filter-paragraph {
   text-align: center;
-}
-.photos-position {
-  display: inline-block;
-  padding-left: 0px;
-  margin-left: 0px;
 }
 .filter-single-section {
   padding-top: 96px;
@@ -274,12 +265,15 @@ body {
 .address {
   color: var(--body);
 }
-.visually-hidden:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  height: 1px;
-  overflow: hidden;
+.visually-hidden {
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
