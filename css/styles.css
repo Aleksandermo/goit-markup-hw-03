@@ -66,11 +66,12 @@ body {
   display: flex;
   gap: 24px;
 }
-.box {
+.box-calculations {
   width: calc((100% - 72px) / 4);
 }
 .box-title {
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .filter-second-header {
   margin-bottom: 72px;
@@ -97,7 +98,7 @@ body {
   margin-left: 0px;
 }
 .filter-single-section {
-  padding: 96px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .filter-buttons {
