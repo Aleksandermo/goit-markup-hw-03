@@ -14,103 +14,81 @@ body {
 }
 
 .container {
-  width: 1126px;
-  margin-left: 16px;
-  margin-right: 16px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
-li,
-nav,
-address {
-  display: inline-block;
+.navigation {
+  display: flex;
+}
+.picture-block {
+  display: block;
+}
+.nav-position {
+  display: flex;
+  align-items: center;
 }
 .logo-position {
-  display: inline-block;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 15px;
-}
-.nav-contacts {
-  display: inline-block;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 76px;
-  padding: 0;
+  margin-right: 76px;
 }
 .inside-contacts {
-  padding: 0 40px;
+  padding: 24px 0 24px;
+}
+.mail-navigation {
+  display: flex;
+  align-items: center;
 }
 .mail {
-  display: block;
-  float: right;
-  margin-left: auto;
-  margin-right: 15px;
+  display: flex;
+  gap: 40px;
 }
-header {
+.filter-header {
   border-bottom: 1px solid var(--cornflower);
 }
-.filter-buttons {
-  justify-content: center;
+.filter-title {
+  padding: 188px 0 188px;
+}
+.title {
+  max-width: 496px;
+}
+.filter-first-buttom {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.boxes {
+  padding: 120px 0 120px;
+}
+.box-position {
   display: flex;
   gap: 24px;
 }
-.button-position {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
+.box {
+  width: calc((100% - 72px) / 4);
+}
+.box-title {
+  margin-bottom: 8px;
+}
+.filter-second-header {
   margin-bottom: 72px;
 }
-.filter-icons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  align-items: flex-start;
-  padding-left: 0px;
+.filter-photos-list {
+  width: calc((100% - 48px) / 3);
 }
-.icons {
-  flex-basis: calc(100%-20px) / 3;
-  width: 360px;
-  height: 420px;
+.filter-team {
+  border-radius: 0px 0px 4px 4px;
 }
-.inside-icons {
-  margin-bottom: 48px;
+.filter-team-name {
+  padding: 32px 16px 32px;
 }
-.section {
-  padding-block: 120px;
-  padding-left: 0px;
+.filter-third-header {
+  text-align: center;
+  margin-bottom: 8px;
 }
-footer {
-  padding-bottom: 100px;
-  padding-left: 15px;
-  padding-top: 101.5px;
-}
-.filter-footer {
-  margin: 0;
-  padding-top: 16px;
-}
-.filter-title {
-  padding-bottom: 188px;
-  padding-left: auto;
-  padding-right: auto;
-  padding-top: 188px;
-}
-.filter-first-buttom {
-  margin-left: 480px;
-}
-.boxes {
-  display: inline-block;
-  margin-left: 30px;
-}
-.box-position {
-  padding-left: 0;
-}
-.box {
-  width: 264px;
-  padding-inline: 12px;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
+.filter-paragraph {
+  text-align: center;
 }
 .photos-position {
   display: inline-block;
@@ -120,7 +98,50 @@ footer {
 .photos {
   padding-inline: 5px;
 }
-
+.filter-single-section {
+  padding: 96px 0 120px 0;
+}
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.filter-five-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button-position {
+  padding: 12px 24px 12px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+.filter-icons {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.inside-icons {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.section {
+  padding-block: 120px;
+  padding-left: 0px;
+}
+.footer-position {
+  padding: 100px 0 100px;
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.filter-footer {
+  max-width: 264px;
+}
 .logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
@@ -237,6 +258,7 @@ footer {
   color: var(--white);
   background-color: var(--ocean);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .filter-address {
   font-style: normal;
