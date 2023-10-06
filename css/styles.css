@@ -3,6 +3,17 @@ body {
   background-color: var(--white);
   color: var(--body);
 }
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
 :root {
   --white: #ffffff;
   --body: #434455;
