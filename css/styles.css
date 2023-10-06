@@ -57,6 +57,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .boxes {
   padding: 120px 0 120px;
@@ -81,7 +82,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .filter-team-name {
-  padding: 32px 16px 32px;
+  padding: 32px 0px;
 }
 .filter-third-header {
   text-align: center;
@@ -95,11 +96,9 @@ body {
   padding-left: 0px;
   margin-left: 0px;
 }
-.photos {
-  padding-inline: 5px;
-}
 .filter-single-section {
-  padding: 96px 0 120px 0;
+  padding: 96px;
+  padding-bottom: 120px;
 }
 .filter-buttons {
   display: flex;
